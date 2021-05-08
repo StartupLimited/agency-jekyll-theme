@@ -13,7 +13,7 @@ $(function() {
 	  var url = "https://formspree.io/" + "{% if site.formspree_form_path %}{{ site.formspree_form_path }}{% else %}{{ site.email }}{% endif %}";
       var name = $("input#name").val();
       var email = $("input#email").val();
-      var phone = $("input#phone").val();
+      var weblink = $("input#weblink").val();
       var message = $("textarea#message").val();
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
@@ -28,7 +28,7 @@ $(function() {
 	dataType: "json",
         data: {
           name: name,
-          phone: phone,
+          weblink: weblink,
           email: email,
           message: message
         },
