@@ -31,15 +31,14 @@
               <div class="form-group">
                 <input name="weblink" class="form-control" id="weblink" type="url"
                   placeholder="{{ site.data.sitetext[site.locale].contact.weblink | default: "Website or Link" }}"
-                 data-validation-required-message="{{ site.data.sitetext[site.locale].contact.weblink-validation | default: "Please enter your website or link." }}">
+                 >
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                 <textarea name="message" class="form-control" id="message"
-                  placeholder="{{ site.data.sitetext[site.locale].contact.message | default: "Message" }}"
-                 data-validation-required-message="{{ site.data.sitetext[site.locale].contact.message-validation | default: "Please enter a message." }}"></textarea>
+                  placeholder="{{ site.data.sitetext[site.locale].contact.message | default: "Message" }}"></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
