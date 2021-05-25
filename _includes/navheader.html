@@ -45,6 +45,9 @@
 	  {%- if site.data.sitetext[site.locale].header.button -%}
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
 	  {%- endif -%}
+    {%- if site.data.sitetext[site.locale].header.subtitle -%}
+    <div class="subintro-lead-in">{{ site.data.sitetext[site.locale].header.subtitle | markdownify }}</div>
+    {%- endif -%}
       </div>
     </div>
   </header>
