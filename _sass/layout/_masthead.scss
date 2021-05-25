@@ -18,9 +18,10 @@ header.masthead {
       @include serif-font;
     }
     .subintro-lead-in {
-      font-size: 17px;
+      font-size: 19px;
       font-style: italic;
-      line-height: 17px;
+      line-height: 19px;
+      margin-top: 20px;
       margin-bottom: 20px;
       @include serif-font;
     }
@@ -46,9 +47,10 @@ header.masthead {
         @include serif-font;
       }
       .subintro-lead-in {
-        font-size: 17px;
+        font-size: 19px;
         font-style: italic;
-        line-height: 17px;
+        line-height: 19px;
+        margin-top: 20px;
         margin-bottom: 20px;
         @include serif-font;
       }
