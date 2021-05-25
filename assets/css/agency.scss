@@ -6,8 +6,8 @@
 @import "base/mixins.scss";
 
 // Custom colors
-$primary: {{ site.data.style.highlight | default: "#fed136" }} !default;
-$white: {{ site.data.style.white | default: "#fff" }} !default;
+$primary: {{ site.data.style.highlight | default: "#54bfff" }} !default;
+$white: {{ site.data.style.white | default: "#FF0000" }} !default;
 $black: {{ site.data.style.black | default: "#000" }} !default;
 
 // Custom Images
