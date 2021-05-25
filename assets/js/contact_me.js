@@ -10,7 +10,7 @@ $(function() {
     submitSuccess: function($form, event) {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
-	  var url = "https://formspree.io/f/moqprglo";
+	  var url = "https://liveformhq.com/form/f8eaa6da-94b9-44bf-a780-2ff7d5de73d9";
       var name = $("input#name").val();
       var email = $("input#email").val();
       var weblink = $("input#weblink").val();
